@@ -1,5 +1,17 @@
 # Python Scripts
-1st Project File Type Identifier
+"""
+Simple File Type Identifier
+----------------------------
+
+This tool identifies file types using magic byte signatures
+(file headers) instead of relying only on file extensions.
+
+Useful for:
+- Cybersecurity learning
+- Digital forensics basics
+- File validation
+- Malware analysis concepts
+
 This was after learning the basic 
 #Python writing files (.txt, .json, .csv)
 #txt_data = "I like pizza"
@@ -7,7 +19,10 @@ This was after learning the basic
 #with open(file_path, "w") as file:
     #file.write(txt_data)
     #print(f"text file '{file_path}' was created")
-Then I began to really dive in and figure out how to identify files     
+Then I began to really dive in and figure out how to identify files 
+Author: Trenton H
+"""
+    
 import os
 
 # Dictionary mapping magic numbers (bytes) to file information
