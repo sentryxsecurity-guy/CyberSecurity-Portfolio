@@ -1,0 +1,28 @@
+# File Type Identifier
+
+A beginner cybersecurity and digital forensics tool written in Python.
+
+## Features
+- Detects file types using magic bytes
+- Identifies MIME types
+- Detects renamed/spoofed files
+- Supports common file formats
+
+## Supported File Types
+- PNG
+- JPG
+- GIF
+- PDF
+- ZIP
+- EXE
+- GZIP
+
+## How It Works
+The script reads the first bytes of a file and compares them
+against known file signatures (magic numbers).
+
+## Usage
+
+```bash
+python file_identifier.py
+```
