@@ -1,5 +1,13 @@
 # Python Scripts
 1st Project File Type Identifier
+This was after learning the basic 
+#Python writing files (.txt, .json, .csv)
+#txt_data = "I like pizza"
+#file_ path = "output.txt"
+#with open(file_path, "w") as file:
+    #file.write(txt_data)
+    #print(f"text file '{file_path}' was created")
+Then I began to really dive in and figure out how to identify files     
 import os
 
 # Dictionary mapping magic numbers (bytes) to file information
